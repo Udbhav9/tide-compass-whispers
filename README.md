@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+# Tide-Navigator
+🌊 The Tide Navigator — AI Compass Experience  An immersive, cinematic web experience where artificial intelligence, ocean tides, and human decision-making converge. The Tide Navigator is not just a website — it is an interactive journey that guides users through uncertainty using symbolic navigation, atmospheric visuals, and intuitive choices.
+Live link : https://tide-compass-whispers.lovable.app/
 
-## Project info
+✨ Concept
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+In a world of shifting tides and uncertain paths, we often seek direction.
 
-## How can I edit this code?
+AI represents intelligence and prediction
+Compass symbolizes guidance and choice
+Tide reflects change, emotion, and uncertainty
 
-There are several ways of editing your application.
+This experience blends all three into a narrative interface where the user becomes a navigator of their own path.
 
-**Use Lovable**
+🎯 Features
+🌌 Cinematic Landing Screen
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Elegant ocean-night gradient background
 
-Changes made via Lovable will be committed automatically to this repo.
+Minimal, premium typography
 
-**Use your preferred IDE**
+Atmospheric introduction
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Golden “Begin Navigation” call-to-action
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🧭 Animated Compass Sequence
 
-Follow these steps:
+Smooth transition after user interaction
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Glowing rotating compass animation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Golden illuminated message:
+“The tide is shifting, choose your direction wisely”
 
-# Step 3: Install the necessary dependencies.
-npm i
+Symbolic representation of guidance before decision
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+❓ Interactive Questionnaire
 
-**Edit a file directly in GitHub**
+Seamless transition into decision phase
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Thought-provoking question about handling uncertainty
 
-**Use GitHub Codespaces**
+Multiple selectable options
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Hover glow effects for immersive interaction
 
-## What technologies are used for this project?
+Single-selection logic
 
-This project is built with:
+✨ Visual & UX Enhancements
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Smooth fade and scale animations
 
-## How can I deploy this project?
+Golden glow effects for emphasis
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Minimalist UI with strong emotional tone
 
-## Can I connect a custom domain to my Lovable project?
+Fully responsive layout
 
-Yes, you can!
+No external frameworks required
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🧠 Purpose
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project explores how design, symbolism, and interactivity can transform a simple webpage into a meaningful experience.
+
+It demonstrates:
+
+Human-AI interaction design
+
+Narrative-driven UI
+
+Emotional UX principles
+
+Creative interpretation of abstract themes
+
+Frontend animation techniques
