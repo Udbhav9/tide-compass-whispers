@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ["Cinzel", "serif"],
+        body: ["Raleway", "sans-serif"],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -47,6 +51,19 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        ocean: {
+          deep: "hsl(var(--ocean-deep))",
+          mid: "hsl(var(--ocean-mid))",
+          surface: "hsl(var(--ocean-surface))",
+          glow: "hsl(var(--ocean-glow))",
+        },
+        compass: {
+          gold: "hsl(var(--compass-gold))",
+          glow: "hsl(var(--compass-glow))",
+        },
+        mystic: {
+          teal: "hsl(var(--mystic-teal))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -65,25 +82,46 @@ export default {
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
+        },
+        "wave-slow": {
+          "0%, 100%": { transform: "translateX(0) translateY(0)" },
+          "25%": { transform: "translateX(-15px) translateY(-8px)" },
+          "50%": { transform: "translateX(0) translateY(-15px)" },
+          "75%": { transform: "translateX(15px) translateY(-8px)" },
+        },
+        "wave-medium": {
+          "0%, 100%": { transform: "translateX(0) translateY(0)" },
+          "25%": { transform: "translateX(20px) translateY(-12px)" },
+          "50%": { transform: "translateX(0) translateY(-20px)" },
+          "75%": { transform: "translateX(-20px) translateY(-12px)" },
+        },
+        float: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+        "compass-pulse": {
+          "0%, 100%": { opacity: "0.4" },
+          "50%": { opacity: "0.8" },
+        },
+        "fade-up": {
+          from: { opacity: "0", transform: "translateY(30px)" },
+          to: { opacity: "1", transform: "translateY(0)" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "wave-slow": "wave-slow 8s ease-in-out infinite",
+        "wave-medium": "wave-medium 6s ease-in-out infinite",
+        float: "float 4s ease-in-out infinite",
+        "compass-pulse": "compass-pulse 3s ease-in-out infinite",
+        "fade-up": "fade-up 0.8s ease-out forwards",
       },
     },
   },
